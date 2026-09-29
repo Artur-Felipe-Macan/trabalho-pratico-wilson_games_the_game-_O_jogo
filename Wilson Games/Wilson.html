@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estiloso.css">
+    <title>Wilson</title>
+</head>
+<body>
+    <div class="exemplo" align="center">
+        <div class="botões" align="center">
+            <h1 id="txt-01">Wilson Game The Game: O Jogo</h1>
+
+            <p id="mensagem-boas-vindas">Digite seu nome para liberar o jogo:</p>
+            <input type="text" id="input-nome" placeholder="Seu nome..." style="padding: 5px; margin-bottom: 15px; font-family: 'Unbounded', sans-serif;">
+
+            <h2><button type="button" id="butão1" style="color: #CC7B46;">Começar</button></h2>
+            <h3><button onclick="window.location.href='config.html'" id="butão2" style="color: #CC7B46;">Configurações</button></h3>
+            <h4><button onclick="window.location.href='loja.html'" id="butão3" style="color: #CC7B46;">Loja</button></h4>
+            <h5><button onclick="window.location.href='créditos.html'" id="butão4" style="color: #CC7B46;">Créditos</button></h5>
+            <h6><button onclick="window.location.href='Sair.html'" id="butão5" style="color: #CC7B46;">Sair</button></h6>
+
+            <p style="margin-top: 20px;">Tempo no menu: <span id="contador-tempo">0</span>s</p>
+            <p id="alerta-temporizado" style="display: none; color: #57ebff; font-weight: bold;">Iniciando jogo...</p>
+        </div>
+    </div>
+
+    <script src="Games.js"></script>
+</body>
+</html>

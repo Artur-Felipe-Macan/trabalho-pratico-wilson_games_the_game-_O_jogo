@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+body {
+    background-image: url("imagens/Créditos.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "Unbounded", sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.container-creditos {
+    padding-top: 190px; 
+}
+
+.texto-creditos {
+    color: #ffd89b;
+    font-size: 16px;
+    margin-bottom: 25px;
+    -webkit-text-stroke: 0.5px #3d110b;
+}
+
+
+button {
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #612B1A;
+    font-family: "Unbounded", sans-serif;
+    color: #CC7B46;
+    border: 3px solid #4E170E;
+    -webkit-text-stroke: 0.5px #753928;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #522416;
+    cursor: pointer;
+    border: 3px solid #3d110b;
+}
